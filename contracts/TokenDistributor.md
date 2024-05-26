@@ -1,0 +1,8 @@
+- line 18. StakingPeriod pack storage
+- line 24. UserInfo pack storage
+- line 46. Optimize size of storage variables -> pack some of them
+- line 142. Cache userInfo[msg.sender] + add conditionals if pendingRewards is zero to avoid unnecessary storage writes
+- line 173. Cache userInfo[msg.sender]
+- line 210. Cache userInfo[msg.sender]
+- line 239. Cache userInfo[msg.sender]
+- line 269. Cache userInfo[msg.sender]
